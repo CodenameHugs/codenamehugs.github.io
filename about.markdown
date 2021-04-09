@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hello! My name is Hugo Moraleida and I'm a Designer & Programmer with a passion for Lua, weird games and education.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Originally from Brazil, but hailing from Vancouver for almost a decade now, I've had my finger on multiple game projects and got to experience different technologies and ways of making games.
 
-
-[jekyll-organization]: https://github.com/jekyll
+I'm interested in
