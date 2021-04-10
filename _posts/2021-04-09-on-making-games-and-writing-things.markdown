@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On making games and writing things"
+title:  "On Making Games and Writing Things"
 date:   2021-04-09 18:30:00 -0700
 categories: thoughts
 ---
