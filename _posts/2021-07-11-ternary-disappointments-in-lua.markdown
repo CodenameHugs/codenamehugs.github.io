@@ -23,9 +23,9 @@ local a, b = condition and 1, 2 or 3, 4
 print (a, b)
 {% endhighlight %}
 
-That piece of code, not unexpectedly, outputs 1, 2. Our problems however begin when we flip the condition to false.
-Once condition == false our output becomes false, 2 instead of the expected 3, 4. Fun.
-That is a consequence of LUA's operator hierarchy. 
+That piece of code, not unexpectedly, outputs `1, 2`. Our problems however begin when we flip the condition to false.
+Once `condition == false` our output becomes `false, 2` instead of the expected `3, 4`. Fun.
+That is a consequence of LUA's *operator hierarchy*. 
 Once condition is evaluated as false the "and" operator attempts to concatenate false and 1 and then assigns the resulting value to a. Meanwhile b receives 2, which is the value following up the comma.
 In a nutshell, condition is treated as a value to be assigned rather than a ternary condition for the assignment.
 
