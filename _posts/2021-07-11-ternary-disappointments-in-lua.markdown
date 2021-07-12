@@ -25,9 +25,9 @@ print (a, b)
 
 That piece of code, not unexpectedly, outputs `1, 2`. Our problems however begin when we flip the condition to false.
 Once `condition == false` our output becomes `false, 2` instead of the expected `3, 4`. Fun.
-That is a consequence of LUA's *operator hierarchy*. 
+That is a consequence of LUA's __operator hierarchy__. 
 Once condition is evaluated as false the `and` operator attempts to concatenate `false and 1` and then assigns the resulting value to `a`. Meanwhile `b` receives 2, which is the value following up the comma.
-In a nutshell, `condition` is treated as a *value* to be assigned rather than a *ternary condition* for the assignment.
+In a nutshell, `condition` is treated as a __value__ to be assigned rather than a __ternary condition__ for the assignment.
 
 After a myriad of experiments with different parenthesis configurations and function calls, the piece of code that approximates the original intention the closest turned out to be:
 {% highlight lua %}
